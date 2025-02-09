@@ -4,7 +4,9 @@ SLEEPTIME=5
 
 INDIR=$PWD/out/subh5
 PREFIX=f_
-OUTFILE=$PWD/out/final/merged.h5
+OUTDIR=$PWD/out/final
+OUTFILE=$OUTDIR/merged.h5
+mkdir -p $OUTDIR
 
     COPYSH=.cache/merge.$PREFIX.sh
     echo '#!/bin/bash' > $COPYSH

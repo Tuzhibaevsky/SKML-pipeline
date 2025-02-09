@@ -3,8 +3,11 @@ import os
 import numpy as np
 
 directory = "./out/root/tree"
-outfile = './out/npy/data'
+outdir = './out/npy'
+outfile = outdir + '/data'
 filelist = os.listdir(directory)
+os.makedirs(outdir, exist_ok=True)
+
 #filelist = ['gen_id_0k.zbs.root',]
 
 grandData = {}

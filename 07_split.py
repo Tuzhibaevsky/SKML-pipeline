@@ -1,8 +1,11 @@
 import h5py as h5
 import numpy as np
+import os
 
 infile = './out/final/merged.h5'
-outname = './out/split/merged.npz'
+outdir = './out/split'
+outname = outdir + '/merged.npz'
+os.makedirs(outdir, exist_ok=True)
 
 train_ratio = 0.70
 val_ratio = 0.15
