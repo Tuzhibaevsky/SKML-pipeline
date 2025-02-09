@@ -3,7 +3,7 @@
 # General setting
 set GROUP = all
 set FILE = 0
-set FILEEND = 999
+set FILEEND = 2999
 set BASEDIR = `pwd`
 set INPUTDIR = $BASEDIR/out/vec
 set OUTPUTDIR = $BASEDIR/out/det

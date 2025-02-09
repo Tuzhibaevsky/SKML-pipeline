@@ -1,5 +1,9 @@
 #!/bin/bash
 
+OUTPUTDIR=./out/det
+ni=0
+nf=2999
+
 jobs=`pjstat | grep det | wc -l`
 if [ $jobs -ne 0 ]
 then
@@ -21,11 +25,8 @@ then
     esac
 fi
 
-#First read all error files:
-OUTPUTDIR=./out/det
-ni=0
-nf=999
 
+#First read all error files:
 echo "***ERROR FILES***"
 # Check error files, only print
 for num in $(seq $ni $nf)

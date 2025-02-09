@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 mkdir "./out/sim" unless -d "./out/sim";
-for($i=0;$i<1000;$i++){
+for($i=0;$i<3000;$i++){
     $nstr = sprintf("%03d", $i);
     # Get directory of the file
     mkdir "./out/sim/$nstr" unless -d "./out/sim/$nstr";

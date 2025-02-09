@@ -3,7 +3,7 @@
 outfolder=./out/det/cat/
 infolder=./out/det/zbs/
 ni=0
-nf=999
+nf=2999
 perfile=100
 
 for num in $(seq $ni $nf)

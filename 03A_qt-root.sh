@@ -2,7 +2,7 @@
 
 set SLEEPTIME = 5
 set FILESTART = 0
-set FILEEND = 9
+set FILEEND = 29
 
 set MODE = ''
 

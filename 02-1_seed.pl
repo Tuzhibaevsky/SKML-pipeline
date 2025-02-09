@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 mkdir "./out/seeds" unless -d "./out/seeds";
 chdir "./out/seeds" ;
-for($i=0;$i<1000;$i++) {
+for($i=0;$i<3000;$i++) {
     $r1 = 0.;
     $r2 = 0.;
     $r3 = 0.;

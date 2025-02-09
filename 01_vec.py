@@ -1,8 +1,8 @@
 import numpy as np
 import os
 
-n_batch = 2 # Events per file
-n_files = 1000 # Number of files
+n_batch = 10 # Events per file
+n_files = 3000 # Number of files
 n_offset = 0 # Offset for file numbering
 
 radius = 1684.7 # Other refs: ent_pos 1684.7 OD 1965 #cm
