@@ -1,0 +1,4 @@
+out/*
+.errs/
+.logs/
+.cache/
