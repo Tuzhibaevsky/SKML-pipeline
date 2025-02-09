@@ -1,0 +1,3 @@
+[submodule "zbs2root"]
+	path = zbs2root
+	url = git@github.com:Tuzhibaevsky/zbs2root.git
